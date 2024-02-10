@@ -24,3 +24,57 @@
   background: #0a7c8764;
   border-radius: 10px;
 }
+
+.r-transform {
+  animation: r-transform 1s infinite;
+}
+
+@keyframes r-transform {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.s-transform {
+  animation: s-transform 1s infinite;
+}
+
+@keyframes s-transform {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.y-transform {
+  animation: y-transform 1s infinite;
+}
+
+@keyframes y-transform {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.link:hover {
+  color: white;
+  cursor: pointer;
+  transform: scale(1.3, 1.3);
+}
